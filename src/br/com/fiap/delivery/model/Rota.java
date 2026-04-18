@@ -2,7 +2,6 @@ package br.com.fiap.delivery.model;
 
 /**
  * Gerencia a associação entre um Pacote e um Veiculo.
- * Utiliza Polimorfismo ao aceitar qualquer tipo de Veiculo.
  */
 public class Rota {
     private Pacote pacote;
@@ -24,7 +23,6 @@ public class Rota {
         System.out.println("-------------------------");
     }
 
-    // Getters e Setters
     public Pacote getPacote() { return pacote; }
     public void setPacote(Pacote pacote) { this.pacote = pacote; }
     public Veiculo getVeiculo() { return veiculo; }
